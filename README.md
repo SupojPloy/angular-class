@@ -3,7 +3,9 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
 
 Deploy to GitHub Pages with [Angular GitHub Pages](https://github.com/angular-schule/angular-cli-ghpages#-quick-start-local-development-)
+
 $ng add angular-cli-ghpages
+
 $ng deploy --base-href=/angular-class/
 
 ## Development server
