@@ -16,6 +16,7 @@ export class LoginComponent implements OnInit {
     this.users = [
       new User(1, 'user 01', 'last 01', 'user01@demo.com'),
       new User(2, 'user 02', 'last 02', 'user02@demo.com'),
+      new User(3, 'user 03', 'last 03', 'user03@demo.com'),
     ];
   }
 
