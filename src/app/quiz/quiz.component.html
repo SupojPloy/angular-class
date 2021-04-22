@@ -1,0 +1,10 @@
+<button 
+    [class]="likeButtonCss"
+    (click)="toogleLikeCounter()">Like
+    | <span [class]="likeCounterCss">{{likeCounter}}</span>
+</button>
+<button 
+    [class]="dislikeButtonCss"
+    (click)="toogleDislikeCounter()">Dislike
+    | <span [class]="dislikeCounterCss">{{dislikeCounter}}</span>
+</button>

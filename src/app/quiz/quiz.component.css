@@ -1,0 +1,37 @@
+.like-button {
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+    width: 100px;
+    margin: 5px;
+}
+
+.like-counter {
+    color: gray;
+}
+
+.dislike-button {
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+    width: 100px;
+    margin: 5px;
+}
+
+.dislike-counter {
+    color: gray;
+}
+
+.liked {
+    color: rgb(38, 10, 196);
+    font-weight: bold;
+    background-color: white;
+    width: 100px;
+}
+
+.disliked {
+    color: rgb(38, 10, 196);
+    font-weight: bold;
+    background-color: white;
+    width: 100px;
+}

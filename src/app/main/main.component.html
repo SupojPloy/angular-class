@@ -1,0 +1,13 @@
+<nav class='navbar navbar-expand navbar-light bg-light'>
+    <a class='navbar-brand'>Main page</a>
+    <ul class='nav nav-pills'>
+      <li><a class='nav-link' routerLinkActive='active'
+                [routerLink]="['/users']">List of users</a></li>
+      <li><a class='nav-link' routerLinkActive='active'
+                [routerLink]="['/quiz']">Quiz</a></li>
+    </ul>
+  </nav>
+  
+  <div class='container-fluid'>
+    <router-outlet></router-outlet>
+  </div>
