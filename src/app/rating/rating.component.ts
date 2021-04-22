@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-rating',
@@ -14,6 +14,14 @@ export class RatingComponent implements OnInit {
 
   ngOnInit(): void {
     this.starWidth = this.targetScore * 75 / 5;
+  }
+
+  @Output() ratingClicked: EventEmitter<string>
+    = new EventEmitter<string>();
+
+  onClicked(): void {
+    console.log('Clicked...');
+    this.ratingClicked.emit('Some data at ' + this.targetScore);
   }
 
 }
