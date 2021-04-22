@@ -7,7 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'demo01';
-  result = "...";
+  result = '...';
+  username = '';
+
+  doSth() {
+    console.log('Clicked ...');
+    this.result = 'Change from clicked !!';
+  }
 
   onPress(event: any) {
     console.log(event.target.value);
